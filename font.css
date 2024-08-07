@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+   
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+   
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+    
+    background-image: linear-gradient(to right,#01022d ,#000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    background-image: linear-gradient(to right , #01022da1 30%,#00000069),url(clladding.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+   
+   
+   
+}
+.container:hover{
+    background-image: linear-gradient(to right , #01022db2 30%,transparent),url(clladding.jpg) ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+   
+    gap: 50px;
+    margin-left: 50px;
+   
+}
+nav ul  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 400px;
+   
+}
+nav ul i{
+    text-align: left;
+   
+}
+.logo{
+font-size: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+   
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+header a{
+   margin: 20px 0 0 30px;
+}
+#about{
+    padding-top: 0;
+    height: 800px;
+    width: 100%;
+    color: white;
+    padding-top: 600px;
+    padding-bottom: 150px;
+    
+}
+.prgraf{
+    align-items: center;
+    text-align: right;
+    width: 500px;
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 150px;
+   
+    color: rgb(240, 219, 219);
+    font-size: 30px;
+}
+#photos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+ 
+    
+}
+
+.foto{
+    padding-top: 500px;
+    
+}
+
+.foto img{
+    padding: 20px;
+    margin: auto;
+}
+.foto img{
+      
+   margin: auto;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+}
+.main img{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    margin-left: 400px;
+}
+footer{
+    display: flex;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(8, 6, 151, 0.993);
+   
+}
+#footers {
+ margin: auto;
+    align-items: center;
+    text-align: center;
+}
+#footers p , h3{
+    color: #fff;
+    font-size: 20px;
+}
+#hedd{
+    margin: auto;
+}
+@media (min-width:350px) and (max-width:1024px){
+    header , nav , ul ,li {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 130px;
+    }
+    nav{
+       margin: 0;
+    }
+    .prgraf{
+        font-size: 15px;
+        width: 300px;
+    }
+    header{
+        overflow: hidden; 
+    }
+    .main img{
+        width: 200px;
+        height: 200px;
+       
+    }
+   .foto{
+    padding-top: 800px;
+   }
+   #hedd{
+    margin-left: 130px;
+   }
+   .main img{
+    margin-left: 70px;
+   }
+}
